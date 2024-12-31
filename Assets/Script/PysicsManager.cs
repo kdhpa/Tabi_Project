@@ -6,12 +6,12 @@ public class PysicsManager : MonoBehaviour
 
     void Start()
     {
-        
+        pysicsObjects = GetComponents<PysicsObject>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

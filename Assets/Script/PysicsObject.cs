@@ -31,6 +31,11 @@ public class PysicsObject : MonoBehaviour
 
 	}
 
+	public virtual void Collision()
+	{
+
+	}
+
 	public void DrawColliderGizmo()
 	{
 		Gizmos.color = Color.green;
